@@ -31,7 +31,7 @@
 		<!-- Top Bar -->
 		<?php 
 		require_once('./include/header.php');
-		include_once('suscriptores.php');
+		//include_once('suscriptores.php');
 
 		error_reporting(0); //Controlo el error de v_id de youtube 
 		?>
@@ -56,8 +56,8 @@
 									<?php
 
 									$API_Url = 'https://www.googleapis.com/youtube/v3/'; //para poder usar la api
-									$API_Key = 'esta es la llave que proporciona youtube Api';
-									$channelId = 'aqui va el id del canal de youtube';
+									$API_Key = 'AIzaSyCEUgtHL2lVSEA2jpuIYE9AL9aEnmnvxE0';
+									$channelId = 'UCfO5Z2nBA956aVwnKIrM6sQ';
 									 
 									$parameter = [
 									    'id'=> $channelId,
